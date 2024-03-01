@@ -1,72 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
   <title>Crypto-hub</title>
 </head>
 <body>
   <nav class="navbar">
     <div class="container">
       <h1 class="logo">Crypto-hub</h1>
-      <ul class="nav-links"></ul>
     </div>
   </nav>
-  <h2 class="track">Cryptos conquering the space</h2>
-  <div class="disclaimer">
-    <h2>Disclaimer</h2>
-    <p>
-      Api has limited resources Due to this Error might Occur, in that case
-      refresh so API will reset
-    </p>
-  </div>
   <div class="container">
-    <div class="btc-prices">
-      <div class="coin">
-        <img src="photos/btc.png" alt="" />
-        <h1 id="btc"></h1>
-      </div>
-      <div class="coin">
-        <img src="photos/ethereum-eth-logo.png" alt="" />
-        <h1 id="eth"></h1>
-      </div>
-      <div class="coin">
-        <img src="photos/rip.pmg.png" alt="" />
-        <h1 id="rip"></h1>
-      </div>  
+    <h2 class="track">Cryptos conquering the space</h2>
+    <div class="disclaimer">
+      <h2>Disclaimer</h2>
+      <p>Api has limited resources Due to this Error might Occur, in that case refresh so API will reset</p>
     </div>
-  </div>
-  <div class="container">
     <div class="btc-prices">
-      <div class="coin">
-        <img src="photos/lit.png" alt="" />
-        <h1 id="lit"></h1>
-      </div>
-      <!-- new coins -->
-      <div class="coin">
-        <img src="photos/cardano_ada-512.webp" alt="" />
-        <h1 id="car"></h1>
-      </div>
-      <div class="coin">
-        <img src="photos/polkadot-cryptocurrency-icon-512x512-ya19nwgb.png" alt="" />
-        <h1 id="pol"></h1>
-      </div>
-      <div class="coin">
-        <img src="photos/ch.png" alt="" />
-        <h1 id="chain"></h1>
-      </div>
-      <div class="coin">
-        <img src="photos/solana-sol-logo.png" alt="" />
-        <h1 id="sola"></h1>
-      </div>
-      <div class="coin">
-        <img src="photos/dogecoin-logo-png-transparent.png" alt="" />
-        <h1 id="doge"></h1>
-      </div>
+      <div class="coin" id="btc"></div>
+      <div class="coin" id="eth"></div>
+      <div class="coin" id="rip"></div>
+      <div class="coin" id="lit"></div>
+      <div class="coin" id="car"></div>
+      <div class="coin" id="pol"></div>
+      <div class="coin" id="chain"></div>
+      <div class="coin" id="sola"></div>
+      <div class="coin" id="doge"></div>
+    </div>
     <h1 id="error"></h1>
   </div>
-  <div id="scrollEl"></div>
   <script src="script.js"></script>
 </body>
 </html>
